@@ -4,4 +4,4 @@ In this project, I created a fully working web service using a modified version 
 
 This is an example of the web service works:
 
-<img src=flask_docker.png />
+<img src=flask_docker.gif />
