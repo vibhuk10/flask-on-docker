@@ -1,7 +1,7 @@
 # flask-on-docker
 
 ## Project Overview
-In this project, I created a fully working web service using a modified version of the Instagram tech stack. In this web service, the user can upload an image (http://localhost:3137/upload) and then they can view their image from a new link (http://localhost:3137/media/IMAGE_FILE_NAME)
+In this project, I created a fully working web service using a modified version of the Instagram tech stack. In this web service, the user can upload an image (http://localhost:1337/upload) and then they can view their image from a new link (http://localhost:1337/media/IMAGE_FILE_NAME)
 
 This is an example of the web service works:
 
@@ -54,5 +54,5 @@ In order to bring this service up with gunicorn and nginx:
     $ docker-compose -f docker-compose.prod.yml up -d --build
     $ docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
     ```
-4. Test this out at http://localhost:3137/upload and view media at http://localhost:3137/media/IMAGE_FILE_NAME
+4. Test this out at http://localhost:1337/upload and view media at http://localhost:1337/media/IMAGE_FILE_NAME
 
